@@ -1,0 +1,207 @@
+{
+	"pages": [{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/work/index",
+			"style": {
+				"navigationBarTitleText": "无线电运维平台小程序"
+			}
+		},
+		{
+			"path": "pages/patrol/patrol",
+			"style": {
+				"navigationBarTitleText": "定期巡检",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "故障上报",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/patrol/patrolDetail",
+			"style": {
+				"navigationBarTitleText": "定期巡检",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/report/patrolReport",
+			"style": {
+				"navigationBarTitleText": "故障上报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/ip/ip",
+			"style": {
+				"navigationBarTitleText": "IP地址情况",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/patrol/upload",
+			"style": {
+				"navigationBarTitleText": "巡检资料上传",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/ip/ipDetail",
+			"style": {
+				"navigationBarTitleText": "IP地址详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/patrol/dailyPatrol",
+			"style": {
+				"navigationBarTitleText": "日常检查",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/ip/ipApply",
+			"style": {
+				"navigationBarTitleText": "IP地址申请",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/work/choose",
+			"style": {
+				"navigationBarTitleText": "选择",
+				"enablePullDownRefresh": false
+			}
+
+		}
+		/* {
+			"path": "pages2/status/IOT",
+			"style": {
+				"navigationBarTitleText": "成都市无线电检测网",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages2/status/iotDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			} 
+	}*/
+		, {
+			"path": "pages/test",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/patrol/bulu",
+			"style": {
+				"navigationBarTitleText": "补录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/patrol/dailyPatrolDetail",
+			"style": {
+				"navigationBarTitleText": "日常检查",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/report/faultReport",
+			"style": {
+				"navigationBarTitleText": "故障上报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/report/faultReportDetail",
+			"style": {
+				"navigationBarTitleText": "故障上报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/patrol/record",
+			"style": {
+				"navigationBarTitleText": "巡检记录",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "pages2",
+		"pages": [{
+			"path": "status/IOT",
+			"style": {
+				"navigationBarTitleText": "成都市无线电监测网",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "status/iotDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "status/charts",
+			"style": {
+				"navigationBarTitleText": "在线率统计",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "status/staticCharts",
+			"style": {
+				"navigationBarTitleText": "在线率统计",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
+	/* "tabBar": {
+		"color": "#000000",
+		"selectedColor": "#000000",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/work/index",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/home_.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/gongdan/gongdanHome",
+				"iconPath": "static/images/tabbar/work.png",
+				"selectedIconPath": "static/images/tabbar/work_.png",
+				"text": "我的报修"
+			} , {
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/images/tabbar/mine.png",
+				"selectedIconPath": "static/images/tabbar/mine_.png",
+				"text": "我的"
+			} 
+		]
+	}, */
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#00539f",
+		"navigationBarTextStyle": "white"
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+			"name": "test",
+			"path": "pages2/status/IOT"
+		}, {
+			"name": "test2",
+			"path": "pages2/status/iotDetail"
+		}]
+	}
+}
